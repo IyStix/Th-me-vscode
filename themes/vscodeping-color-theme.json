@@ -1,0 +1,52 @@
+{
+	"name": "My Gamified Theme",
+	"type": "dark",
+	"colors": {
+	  "editor.background": "#1e1e1e", 
+	  "editor.foreground": "#d4d4d4", 
+	  "editorCursor.foreground": "#ffcc00", 
+	  "editor.lineHighlightBackground": "#2d2d30",
+	  "editorLineNumber.foreground": "#858585", 
+	  "activityBar.background": "#333333", 
+	  "sideBar.background": "#252526", 
+	  "sideBarTitle.foreground": "#bbbbbb", 
+	  "statusBar.background": "#007acc",
+	  "statusBar.foreground": "#ffffff", 
+	  "tab.activeBackground": "#1e1e1e", 
+	  "tab.inactiveBackground": "#2d2d30",
+	  "tab.border": "#252526", 
+	  "editor.selectionBackground": "#264f78"  
+	},
+	"tokenColors": [
+	  {
+		"scope": ["comment"],
+		"settings": {
+		  "foreground": "#608b4e"
+		}
+	  },
+	  {
+		"scope": ["keyword"],
+		"settings": {
+		  "foreground": "#569cd6"
+		}
+	  },
+	  {
+		"scope": ["variable", "string"],
+		"settings": {
+		  "foreground": "#ce9178" 
+		}
+	  },
+	  {
+		"scope": ["constant"],
+		"settings": {
+		  "foreground": "#dcdcaa"
+		}
+	  },
+	  {
+		"scope": ["function"],
+		"settings": {
+		  "foreground": "#d16969"
+		}
+	  }
+	]
+  }

@@ -1,0 +1,21 @@
+{
+  "name": "vscodeping",
+  "displayName": "vscodeping",
+  "description": "vscodeping",
+  "version": "0.0.1",
+  "engines": {
+  "vscode": "^1.90.2"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "vscodeping",
+        "uiTheme": "hc-black",
+        "path": "./themes/vscodeping-color-theme.json"
+      }
+    ]
+  }
+}
